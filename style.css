@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+
+}
+
+.cards {
+    padding: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.quotes {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.cards .card .image {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cards h4 {
+    margin: 10px 0 20px;
+    font-size: 20px;
+}
+
+.cards p {
+    margin: 10px 0 20px;
+    font-size: 17px;
+}
